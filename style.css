@@ -14,9 +14,37 @@ html,
 body {
   width: 100%;
   height: 100%;
+  background-color: #131313;
 }
 
 .container {
-  width: 97%;
+  width: 95%;
   margin: auto;
 }
+
+.Own{
+  padding: 4rem 0rem;
+}
+
+.header-surya{
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.Coverted{
+  padding: 0rem 0.3rem;
+  background-color: khaki;
+  color: #131313;
+  border-radius: 1rem;
+}
+
+.Circle1{
+  padding: 0.5rem;
+  background-color: khaki;
+  border-radius: 50%;
+
+}
+
+
+
+
