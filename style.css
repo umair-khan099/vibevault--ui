@@ -31,6 +31,12 @@ body {
   color: aliceblue;
 }
 
+.h1-div{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
 .Coverted{
   padding: 0rem 0.3rem;
   background-color: khaki;
@@ -39,12 +45,19 @@ body {
 }
 
 .Circle1{
-  padding: 0.5rem;
+  padding: 1.8rem;
   background-color: khaki;
   border-radius: 50%;
-
 }
 
-
+.Circle-img{
+  background: url(asset/images/Logo.png);
+  background-position: center;
+  background-size: 90%;
+  background-repeat: no-repeat;
+  padding: 1.8rem;
+  background-color: khaki;
+  border-radius: 50%;
+}
 
 
