@@ -1,13 +1,18 @@
 @font-face {
   font-family: Bricolage;
-  src: url(asset/Fonts/BricolageGrotesque-VariableFont_opsz,wdth,wght.ttf);
+  src: url(./asset/Fonts/BricolageGrotesque-VariableFont_opsz\,wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: Bricolage2;
+  src: url(./asset/Fonts/BricolageGrotesque_24pt-SemiBold.ttf);
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Bricolage;
+  font-family: Bricolage2;
 }
 
 html,
@@ -22,59 +27,311 @@ body {
   margin: auto;
 }
 
-.Own{
-  padding: 4rem 0rem;
+.ice {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+
 }
 
-.header-surya{
-  font-size: 4rem;
-  color: aliceblue;
-  text-align: left;
+.new {
+  font-size: 3.9rem;
+  color: #FFFFFF;
 }
 
-.header-surya img{
-  height: 3.5rem;
+.ice-btn {
+  position: relative;
+  margin-top: 40px;
 }
 
-.img-div{
-.flex {
+.arr {
+  position: absolute;
+  left: 40px;
+  padding: 25px 25px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  margin-top: 10px;
+  border: none;
+}
+
+.arr i {
+  font-size: 20px;
+}
+
+.btn-1 {
+  padding: 37px 37px;
+  border-radius: 50%;
+  font-size: 20px;
+  font-weight: 800;
+  background-color: #171717;
+  border: none;
+  border: 2px solid #A3A3A3;
+}
+
+.shop {
+  padding: 20px 50px;
+  border-radius: 60px;
+  font-size: 22px;
+  font-weight: 400;
+  background-color: #EDD18B;
+  border: none;
+  margin-top: 10px;
+}
+
+.dis {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disc-1 {
+  display: flex;
+  width: 65%;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.disc-1 img {
+  height: 120px;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.description {
+  width: 90%;
+  font-size: 16px;
+  color: #707070;
+}
+
+.by {
+  font-size: 7rem;
+  margin-left: 40px;
+  color: #FFFFFF;
+}
+.all{
+  color: #343434;
+  background-color: #FFFFFF;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 20px;
+}
+.btns{
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: 2px solid #404040;
+  background-color: #171717;
+  color: #7C7C7C;
+  margin-top: 60px;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 30px;
+}
+.card-1{
+    height: 28rem;
+    width: 20rem;
+    background-position: center;
+    border-radius: 30px;
+    object-fit: cover;
+  background-image: url(./asset/images/Card-img-2.png);
+}
+.card-2{
+    height: 28rem;
+    width: 20rem;
+    background-position:right;
+    border-radius: 30px;
+    object-fit: cover;
+  background-image: url(./asset/images/card-img-3.png);
+}
+.card-3{
+    height: 28rem;
+    width: 20rem;
+    background-position: top;
+    border-radius: 30px;
+    object-fit: cover;
+  background-image: url(./asset/images/Card-img-4.png);
+}
+.card-4{
+    height: 28rem;
+    width: 20rem;
+    background-position: center;
+    border-radius: 30px;
+    object-fit: cover;
+  background-image: url(./asset/images/card-img\ copy.png);
+}
+
+.line{
+display: flex;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+}
+.line-1{
+  width: 80%;
+  height: 1px;
+  background-color: #2C2C2C;
+  margin-left: 30px;
+}
+.num{
+  font-size: 20px;
+  color: #858585;
+}
+.num span{
+  color: #FEFEFE;
+}
+.btn-btn{
+  margin-left: 30px;
+}
+.btn-btn button{
+  padding: 10px 20px;
+  border-radius: 40px;
+  background-color: transparent;
+  border: 2px solid #A6A6A6;
+}
+.btn-btn button:last-child{
+   padding: 10px 30px;
+   border: 2px solid #CDCDCD;
+   
+}
+.btn-btn button:last-child i{
+  color: #CDCDCD;
+}
+.btn-btn button i{
+  font-size: 25px;
+  color: #858585;
+}
+.card-logo{
+ display: flex;
+ /* flex-direction: column; */
+ justify-content: space-between;
+ padding: 20px;
+}
+.card-logo button{
+  border-radius: 50%;
+  padding: 1rem 1rem;
+  background-color: transparent;
+  border: 2px solid #9A9A9A;
+  color: #9A9A9A;
+}
+.btn-ii button{
+background-color: #FFFFFF;
+color: #3E3E3E;
+border: none;
+}
+.card-logo i{
+  font-size: 30px;
+  font-weight: 100;
+}
+.btn-end{
+  margin-top: 10rem;
+  margin-left: 20px;
+}
+.btn-end button{
+  padding:5px 10px;
+  border-radius: 30px;
+  border: none;
+}
+.btn-end button:first-child{
+background-color: #E4D087;
+}
+.para-card p{
+color: #FBFBFB;
+font-size: 35px;
+ margin-left: 20px;
+ margin-top: 10px;
+}
+.para-dis p{
+  color: #9B9B9B;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+.price{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-left:20px ;
+  padding-right:20px ;
+  margin-top: 10px;
 }
-
-.flex-align {
+.price-1{
   display: flex;
   align-items: center;
 }
+.price-1 p:first-child{
+  font-size: 25px;
+  color: #FDFDFD;
+}
+.offer{
+  color: #626262;
+  text-decoration: line-through;
+}
+.rate{
+  color:#DDD8D7 ;
+}
+.rate i{
+font-weight: 900;
+margin-right: 0.1rem;
+color: #DCCC85;
+}
+.btn-iii{
+  margin-top: 8rem;
+  margin-left: 20px;
+}
+.btn-iii button:first-child{
+padding: 20px 40px;
+ border-radius: 50px;
+   border: none;
+   font-size: 20px;
+   background:none;
+   border: 1px solid #DDD8D7;
+   color: #DDD8D7;
+}
+.btn-iii button:last-child{
+  padding: 14px 17px;
+  border-radius: 50%;
+  border: none;
+     font-size: 30px;
+}
+.Own {
+  padding: 4rem 0rem;
+}
 
-.h1-div{
+.header-surya {
+  font-size: 3rem;
+  color: aliceblue;
+}
+
+.h1-div {
   display: flex;
   align-items: center;
   justify-content: left;
 }
 
-.Coverted{
+.Coverted {
   padding: 0rem 0.3rem;
   background-color: khaki;
   color: #131313;
   border-radius: 1rem;
 }
 
-.Circle1{
+.Circle1 {
   padding: 1.8rem;
   background-color: khaki;
   border-radius: 50%;
 }
 
-.Circle-img{
+.Circle-img {
   background: url(asset/images/Logo.png);
   background-position: center;
-  background-size: 60%;
+  background-size: 90%;
   background-repeat: no-repeat;
   padding: 1.8rem;
   background-color: khaki;
   border-radius: 50%;
+<<<<<<< HEAD
 }
 
 .bottom-surya{
@@ -580,3 +837,6 @@ ul li {
   
 }
 >>>>>>> c9f3be5b96bf6de5fe0c24a96dd05c7bac44a9f7
+=======
+}
+>>>>>>> 4c5cab6bb33251eb9df5a7abca3a791f049bece9
